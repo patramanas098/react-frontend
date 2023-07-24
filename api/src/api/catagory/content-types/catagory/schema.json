@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "catagories",
+  "info": {
+    "singularName": "catagory",
+    "pluralName": "catagories",
+    "displayName": "post",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    }
+  }
+}

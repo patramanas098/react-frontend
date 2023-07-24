@@ -1,0 +1,27 @@
+.Displayuser {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+ 
+}
+
+.Displayusercontainer {
+  width: 100%;
+  max-width: 300px;
+margin: auto;
+}
+
+/* Styles for laptop screens and larger */
+
+
+@media (max-width: 1200px) {
+  .Displayuser {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 100px;
+  }
+  
+  .Displayusercontainer {
+    max-width: 400px;
+    
+  }
+}

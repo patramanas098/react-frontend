@@ -1,0 +1,109 @@
+.shop-profiles {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 6px;
+}
+
+.profile-card {
+  padding: 6px;
+  margin-top: 60px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 3px 20px rgba(30, 30, 30, 0.26);
+  color: #231759;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.profile-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(30, 30, 30, 0.4);
+}
+
+.profile-image {
+  width: 126px;
+  height: 144px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 3px solid #231759;
+  background-color: white;
+  box-shadow: 0 3px 20px rgba(30, 30, 30, 0.26);
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.profile-info p {
+  margin-bottom: 5px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon {
+  height: 32px;
+  margin-right: 7px;
+}
+
+.locate-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.locate-icon {
+  height: 32px;
+  margin-right: 7px;
+}
+
+/* Styles for mobile screens */
+@media (max-width: 1000px) {
+  .shop-profiles {
+    padding: 0;
+    
+  }
+  
+  .profile-card {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .profile-image {
+    width: 96px;
+    height: 110px;
+  }
+  
+  .profile-info h2 {
+    font-size: 16px;
+  }
+  
+  .profile-info p {
+    margin-bottom: 3px;
+  }
+  
+  .contact-icon {
+    height: 24px;
+    margin-right: 5px;
+  }
+  
+  .locate-icon {
+    height: 24px;
+    margin-right: 5px;
+  }
+}

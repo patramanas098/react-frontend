@@ -1,0 +1,24 @@
+.ownerbox{
+    padding: 90px ;
+    background-color: white;
+    position: absolute;
+    top: 20%; left: 21%; right: 21%;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgb(30 30 30 / 26%);
+   
+
+
+}
+
+.ownerimagebox{
+    background-color: white;
+    box-shadow: 0 3px 20px rgb(30 30 30 / 26%);
+    border-radius: 20px;
+    padding: 80px 60px;
+    position: absolute;
+    top: 6%; left: 3%;
+
+
+
+
+}

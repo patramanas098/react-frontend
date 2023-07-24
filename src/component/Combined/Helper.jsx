@@ -1,0 +1,1 @@
+export const BASE_URL = "https://mernapp-8.onrender.com/api"

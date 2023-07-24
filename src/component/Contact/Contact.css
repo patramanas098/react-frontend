@@ -1,0 +1,9 @@
+.contactbox{
+  padding: 150px 60px;
+  background-color: white;
+  
+  position: absolute;
+  top: 15%; left: 21%;
+  border-radius: 15px;
+  box-shadow: 0 3px 20px rgb(30 30 30 / 26%);
+}
